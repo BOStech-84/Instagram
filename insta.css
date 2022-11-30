@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+.task-bar{
+    height: 100%;
+    width: 20%;
+border-right: 2px solid #0000001b;
+justify-content: left;
+}
+.task-bar > h1{
+    margin: 30px 10px;
+}
+.bar{
+ margin: 10px;
+ margin-bottom: 30px;
+}
+.aligh-icon{
+    margin-left: 8px;
+
+}
+ #circle > img, #circle{
+    border-radius: 50%;
+    position: relative;
+    top: 3px;    
+ }
+ .light-color{
+    color: #a69a9adc;
+    padding-top: 5px;
+ }
+    .circle{
+        border: 0px solid;
+        border-radius: 80%;
+        width: 50px;
+        height: 50px;
+        object-fit:fill;
+        padding: 2px;
+        margin: 0px;
+        
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
+#circle > span{
+    position: relative;
+    bottom: 2px;    
+}
+ .hero-page{
+    display:flex;
+    margin-left: 10px;
+    
+}
+.story-pic{
+    width: 44%;
+    background-color: beige;
+    justify-content: flex-start;
+    display:flex;
+    margin-left: 20px;
+}
+.pic{
+    width: 60px;
+    height: 75px;
+    margin: 10px;
+    margin-top: 45px;
+    padding: 0px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    text-align: center;
+
+ }
+ .profile-pic{
+     display: flex;
+     padding: 20px;
+     margin:70px 10px 10px 10px;
+     align-items: center;
+    }
+    #follow{
+     margin:10px;
+     margin-top: -10px;
+     margin-bottom: -40px;
+    }
+    #follow >#blue{
+        margin-left: 62px;
+
+    }
+    .post{
+    
+        align-items: flex-start;
+       
+    }
+    .text{
+        margin-left: 35px;
+        margin-top: -20px;
+    }
+    .text > #blue{
+    color: black;
+    margin-left: 130px;
+    }
+    .profile-text{
+        padding: 10px  15px 10px;
+    }
+    .describe{
+        text-overflow: ellipsis;
+        font-size: 12px;
+    }
+    #blue{
+        font-size: 12px;
+        font-weight: 500;
+        color: #123ad8;
+        margin-left: 90px;
+       background-color: aqua;
+    }
+
+
