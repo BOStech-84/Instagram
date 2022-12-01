@@ -69,17 +69,55 @@ justify-content: left;
 
  }
  .profile-pic{
-     display: flex;
-     padding: 20px;
-     margin:70px 10px 10px 10px;
-     align-items: center;
+   
+     display: block;
+     margin:80px 0px 0px -40px;
+     float:left;
+    
     }
-    #follow{
-     margin:10px;
-     margin-top: -10px;
-     margin-bottom: -40px;
+    .profile{
+        display: flex;
+        align-items: center;
+        padding: 5px;
     }
-    #follow >#blue{
+    .profile-text{
+        padding: 10px  5px 5px 10px;
+        align-items: center;
+    }
+    #see, #switch, #tech, #shot{
+        position: relative;
+        right: -70px;
+   float:left;
+   
+   margin-left: 10px;
+    }
+    #see{
+        color: black;
+    }
+    .blue{
+        font-size: 12px;
+        font-weight: 500;
+        color: #123ad8;
+        float:left;
+    margin-left: 20px;
+    padding-left: -20px;
+    }
+    .see{
+     align-items: baseline;
+    
+      
+    }
+  
+    #shot{
+        right: -6px;
+    }
+    #tech{
+        right: -22px;
+    }
+    #switch{
+        right: -35px;
+    }
+    .follow >#blue{
         margin-left: initial;
 
     }
@@ -90,60 +128,28 @@ justify-content: left;
         padding: 0px;
         margin-left: -45px;
     }
-    .post{
-        align-items: flex-start;
-        margin-left: -620px;
-        margin-top: -20px;
-       
-    }
-    .text{
-        margin-left: 35px;
-        margin-top: -20px;
-    
-    }
-    .profile-text{
-        padding: 10px  15px 10px;
-    }
+   
     .describe{
         text-overflow: ellipsis;
         font-size: 12px;
     }
-    #blue, #red, #yellow, #orange, #violet, #purple, #green{
-        font-size: 12px;
-        font-weight: 500;
-        color: #123ad8;
-    }
-#blue{
-    margin-left:180px;
-}
-#green{
-    margin-left: 60px;
-    color: black;
-    font-weight: bold;
-}
-#red{
-    margin-left: 10px;
-}
-#blue{
-    margin-left: 10px;
-}
-#purple{
-    margin-left: 0px;
-}
-#orange{
-    margin-left: 5px;
-}
+   
+
+/* 
 .profile-post{
 position: relative;
-right: 88vh;
+width:30%;
+right: 93vh;
 top: 25vh;
 display: flex;
+background-color: #285AEB;
 }
 .profile-pos{
     align-items: flex-start;
 justify-content: flex-start;
     display:flex;
 }
+*/
 .posts{
     width: 30px;
     height: 30px;
