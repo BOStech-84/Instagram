@@ -8,11 +8,15 @@
     width: 20%;
 border-right: 2px solid #0000001b;
 justify-content: left;
+margin-left: 20px ;
 }
+
 .task-bar > h1{
     margin: 30px 10px;
+    font-family: Hipster Script;
 }
 .bar{
+    display: flex;
  margin: 10px;
  margin-bottom: 30px;
 }
@@ -69,9 +73,8 @@ justify-content: left;
 
  }
  .profile-pic{
-   
-     display: block;
-     margin:80px 0px 0px -40px;
+   display: block;
+     margin:80px 0px 0px -80px;
      float:left;
     
     }
@@ -133,23 +136,35 @@ justify-content: left;
         text-overflow: ellipsis;
         font-size: 12px;
     }
+    .fa{
+        opacity: 0.5;
+    }
+    .fa-home{
+        opacity: 1;
+    }
    
+.profile-post{
+   margin-left: 365px;
+   position: relative;
+   top: -52vh;
+}
 
 /* 
 .profile-post{
-position: relative;
+
 width:30%;
 right: 93vh;
-top: 25vh;
+
 display: flex;
 background-color: #285AEB;
 }
+*/
 .profile-pos{
     align-items: flex-start;
 justify-content: flex-start;
     display:flex;
 }
-*/
+
 .posts{
     width: 30px;
     height: 30px;
