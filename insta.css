@@ -30,14 +30,12 @@ justify-content: left;
     padding-top: 5px;
  }
     .circle{
-        border: 0px solid;
         border-radius: 80%;
         width: 50px;
         height: 50px;
-        object-fit:fill;
+        object-fit: cover;
         padding: 2px;
         margin: 0px;
-        
         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 
 }
@@ -52,10 +50,10 @@ justify-content: left;
 }
 .story-pic{
     width: 44%;
-    background-color: beige;
     justify-content: flex-start;
     display:flex;
-    margin-left: 20px;
+    margin-left: 30px;
+    padding-left: 30px;
 }
 .pic{
     width: 60px;
@@ -82,21 +80,26 @@ justify-content: left;
      margin-bottom: -40px;
     }
     #follow >#blue{
-        margin-left: 62px;
+        margin-left: initial;
 
     }
+    #posts{
+        width: 62vh;
+        height: 65vh;
+        margin: 10px;
+        padding: 0px;
+        margin-left: -45px;
+    }
     .post{
-    
         align-items: flex-start;
+        margin-left: -620px;
+        margin-top: -20px;
        
     }
     .text{
         margin-left: 35px;
         margin-top: -20px;
-    }
-    .text > #blue{
-    color: black;
-    margin-left: 130px;
+    
     }
     .profile-text{
         padding: 10px  15px 10px;
@@ -105,12 +108,49 @@ justify-content: left;
         text-overflow: ellipsis;
         font-size: 12px;
     }
-    #blue{
+    #blue, #red, #yellow, #orange, #violet, #purple, #green{
         font-size: 12px;
         font-weight: 500;
         color: #123ad8;
-        margin-left: 90px;
-       background-color: aqua;
     }
+#blue{
+    margin-left:180px;
+}
+#green{
+    margin-left: 60px;
+    color: black;
+    font-weight: bold;
+}
+#red{
+    margin-left: 10px;
+}
+#blue{
+    margin-left: 10px;
+}
+#purple{
+    margin-left: 0px;
+}
+#orange{
+    margin-left: 5px;
+}
+.profile-post{
+position: relative;
+right: 88vh;
+top: 25vh;
+display: flex;
+}
+.profile-pos{
+    align-items: flex-start;
+justify-content: flex-start;
+    display:flex;
+}
+.posts{
+    width: 30px;
+    height: 30px;
+}
 
-
+.profile-tex{
+    font-size: 12px;
+    padding:10px;
+    margin-top: -5px;
+}
